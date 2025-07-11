@@ -77,7 +77,7 @@ def lambda_handler(event, context):
     
 
     # Set the email content
-    to_address = "a@abc.com"
+    to_address = "soetintaung16@ucsmgy.edu.mm"
     subject = "AWS Cost Explorer Data"
     body = "Here is the aws billing data from last month."
     charset = "UTF-8"
