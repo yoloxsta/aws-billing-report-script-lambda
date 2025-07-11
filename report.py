@@ -12,7 +12,7 @@ from email.mime.application import MIMEApplication
 def lambda_handler(event, context):
     ce = boto3.client('ce')
     
-    services = ['AWSLambda', 'AmazonEC2']
+    services = ['AWS Lambda', 'Amazon Elastic Compute Cloud - Compute']
     
     end_date = datetime.datetime.now().replace(day=1)
     start_date = (end_date - timedelta(days=1)).replace(day=1)
