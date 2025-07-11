@@ -56,8 +56,8 @@ def lambda_handler(event, context):
     
     ses = boto3.client('ses')
     
-    from_address = "soetintaung@abccsmm.com"
-    to_address = "soetintaung16@ucsmgy.edu.mm"
+    from_address = "varified mail by ses"
+    to_address = "varified mail by ses"
     subject = "AWS Cost Explorer Data"
     body = "Here is the AWS billing data from last month."
     
