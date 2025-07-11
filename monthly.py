@@ -65,7 +65,7 @@ def lambda_handler(event, context):
 def send_email(month, attachment):
     msg = MIMEMultipart()
     msg['From'] = "soetintaung16@ucsmgy.edu.mm"
-    msg['To'] = "soetintaung@abccsmm.com"
+    msg['To'] = "soetintaungxxxxx"
     msg['Subject'] = "Monthly AWS Cost by Service: {}".format(month)
 
     # Email body
