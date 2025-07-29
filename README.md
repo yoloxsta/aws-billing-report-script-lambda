@@ -42,5 +42,4 @@ end_str = current_month_start.strftime('%Y-%m-%d')
 
 print(f"Getting cost data for {start_str} to {end_str}")
 
-
 ```
